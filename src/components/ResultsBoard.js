@@ -21,7 +21,7 @@ export default class resultsBoard extends Component {
 
 		return (
 			<div className="movieBoxesContainer p-2">
-				{movieCards == undefined ? <p>Nada por aqui...</p> : movieCards}
+				{movieCards == undefined ? <p>No se encontraron Resultados a esta busqueda</p> : movieCards}
 			</div>
 		);
 	}

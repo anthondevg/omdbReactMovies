@@ -50,7 +50,7 @@ function App() {
 
 
 function About() {
-  return <h2>About</h2>;
+  return <h2>Created by @arentus/ Anthony Gonzalez</h2>;
 }
 
 function Users() {
